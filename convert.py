@@ -1,51 +1,67 @@
 import json
+import csv
 
-def extract_video_lists(json_file):
-    """
-    Extracts the 'Like List', 'Favorite Videos', and 'Share History' sections from a JSON file.
-
-    Args:
-        json_file (str): Path to the JSON file.
-
-    Returns:
-        tuple: Three lists of video links, one each for 'Like List', 'Favorite Videos', and 'Share History'.
-    """
-
+def extract_liked(json_file):
     with open(json_file, 'r') as f:
         data = json.load(f)
 
-    liked_vids = [video['Link'] for video in data['Activity']['Like List']['LikeVideoList']]
-    favorite_vids = [video['Link'] for video in data['Activity']['Favorite Videos']['FavoriteVideoList']]
-    shared_vids = [video['Link'] for video in data['Activity']['Share History']['ShareHistoryList']]
+    links = []
+    for video in data['Activity']['Like List']['ItemFavoriteList']:
+        links.append(video['Link'])
 
-    return liked_vids, favorite_vids, shared_vids
+    return links
+    
+def extract_favs(json_file):
+    with open(json_file, 'r') as f:
+        data = json.load(f)
 
-def write_to_txt(video_list, txt_file):
+    links = []
+    for video in data['Activity']['Favorite Videos']['FavoriteVideoList']:
+        links.append(video['Link'])
+
+    return links
+    
+def extract_shared(json_file):
+    with open(json_file, 'r') as f:
+        data = json.load(f)
+
+    links = []
+    for video in data['Activity']['Share History']['ShareHistoryList']:
+        links.append(video['Link'])
+
+    return links
+    
+
+def write_to_csv(links, csv_file):
     """
-    Writes a list of video links to a text file.
+    Writes a list of links to a CSV file.
 
     Args:
-        video_list (list): List of video links.
-        txt_file (str): Path to the text file.
+        links (list): List of Link entries.
+        csv_file (str): Path to the CSV file.
     """
 
-    with open(txt_file, 'w') as f:
-        for link in video_list:
-            f.write(link + '\n')
+    with open(csv_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Link'])  # Write header row
+        for link in links:
+            writer.writerow([link])
 
 if __name__ == '__main__':
     json_file = 'user_data_tiktok.json'  # Replace with your JSON file name
-    liked_vids_file = 'liked_vids.txt'
-    favorite_vids_file = 'bookmarked_vids.txt'
-    shared_vids_file = 'shared_vids.txt'
+    liked_file = 'liked_links.txt'  # Name of the output CSV file
+    favs_file = 'favorited_links.txt'  # Name of the output CSV file
+    shared_file = 'shared_links.txt'  # Name of the output CSV file
 
-    liked_vids, favorite_vids, shared_vids = extract_video_lists(json_file)
+    links = extract_liked(json_file)
+    write_to_csv(links, liked_file)
+    print(f"Liked links extracted and saved to {liked_file}")
 
-    write_to_txt(liked_vids, liked_vids_file,)
-    print(f"'Like List' links extracted and saved to {liked_vids_file}")
+    links = extract_favs(json_file)
+    write_to_csv(links, favs_file)
+    print(f"Favorite links extracted and saved to {favs_file}")
+    
+    links = extract_shared(json_file)
+    write_to_csv(links, shared_file)
+    print(f"Shared links extracted and saved to {shared_file}")
 
-    write_to_txt(favorite_vids, favorite_vids_file)
-    print(f"'Favorite Videos' links extracted and saved to {favorite_vids_file}")
-
-    write_to_txt(shared_vids, shared_vids_file)
-    print(f"'Shared Videos' links extracted and saved to {shared_vids_file}")
