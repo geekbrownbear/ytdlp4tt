@@ -259,7 +259,7 @@
   "Direct Messages": {
     "Chat History": {
       "ChatHistory": {
-        "Chat History with drpandamnstr:": [
+        "Chat History with username:": [
           {
             "Date": "2021-04-01 01:34:11",
             "From": "username",
@@ -290,16 +290,30 @@
     "Go Live History": {
       "GoLiveList": null
     },
+    "Go Live Settings": {
+      "SettingsMap": {
+        "Allow agencies to find and invite you": "N/A",
+        "Allow others to invite you to co-host in LIVE": "On",
+        "Allow people to send and receive comments during your LIVE": "N/A",
+        "Allow suggested LIVE hosts to invite you to co-host in LIVE": "On",
+        "Allow viewers to request to go LIVE with you": "N/A",
+        "Allow viewers to see and send questions and answers in your LIVE": "N/A",
+        "Allow viewers to send you gifts during your LIVE": "N/A",
+        "Hide comments that contain the following keywords from your LIVE": [],
+        "Hide potential spam or offensive comments from your LIVE": "N/A",
+        "People you assigned to moderate your LIVE": [],
+        "Show your username and gift information in features with ranking lists": "On"
+      }
+    },
     "Watch Live History": {
       "WatchLiveMap": null
-      }
     },
     "Watch Live Settings": {
       "WatchLiveSettingsMap": {
         "app": "720p",
         "web": "N/A"
       },
-      "MostRecentModificationTimeInApp": "133588",
+      "MostRecentModificationTimeInApp": "1733588884798",
       "MostRecentModificationTimeInWeb": "0"
     }
   },
@@ -321,8 +335,6 @@
     },
     "Product Browsing History": {
       "ProductBrowsingHistories": null
-        }
-      ]
     },
     "Product Review History": {
       "ProductReviewHistories": null
@@ -349,4 +361,3 @@
     }
   }
 }
-
