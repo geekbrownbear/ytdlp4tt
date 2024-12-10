@@ -2,7 +2,7 @@ import json
 import csv
 
 def extract_liked(json_file):
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     links = []
