@@ -30,7 +30,7 @@ Be mindful! You might have A LOT of liked/shared videos. Check the files from st
   
 3. Download via yt-dlp
    * Get yt-dlp from <https://github.com/yt-dlp/yt-dlp>
-   * This command will just put the files in the same folder as yt-dlp but it can be modified as desired. REPLACE `PATH_TO_LINKS.TXT`
+   * This command will just put the files in the same folder as yt-dlp but it can be modified as desired. REPLACE `PATH_TO_LINKS.TXT` (keep the apostrophes)
    * TikTok videos end up with the entire description as the file name which is a nightmare. So instead, this will name the files using the video ID# and create a .description file (its just a text file) with the entire video descrip/name
    * Run the command once per file from step 2
    
