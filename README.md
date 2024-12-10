@@ -1,6 +1,6 @@
 # ytdlp4tt
 
-Be mindful! You might have A LOT of 
+Be mindful! You might have A LOT of liked/shared videos. Check the files from step 2 for an estimate on how many videos you will end up with. 10k vids ~= 40GB from my testing.
 
 1. Get your Account Data from TikTok (example file `user_data_tiktok.json`). From TikTok KB:
 
