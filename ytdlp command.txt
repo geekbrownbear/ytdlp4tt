@@ -1,0 +1,1 @@
+yt-dlp -a '.\bookmarked_links.txt' --write-description --output '[%(id)s].%(ext)s'

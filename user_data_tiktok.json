@@ -1,0 +1,352 @@
+{
+  "Activity": {
+    "Favorite Effects": {
+      "FavoriteEffectsList": [
+        {
+          "Date": "2021-06-01 07:11:33",
+          "EffectLink": "https://m.tiktok.com/share/stickers/detail/105.html"
+        },
+        {
+          "Date": "2020-04-26 13:55:01",
+          "EffectLink": "https://m.tiktok.com/share/stickers/detail/47.html"
+        }
+      ]
+    },
+    "Favorite Hashtags": {
+      "FavoriteHashtagList": [
+        {
+          "Date": "2021-08-05 07:10:32",
+          "Link": "https://m.tiktok.com/h5/share/tag/48.html"
+        },
+        {
+          "Date": "2020-04-27 03:49:09",
+          "Link": "https://m.tiktok.com/h5/share/tag/44.html"
+        }
+      ]
+    },
+    "Favorite Sounds": {
+      "FavoriteSoundList": [
+        {
+          "Date": "2020-06-28 16:00:19",
+          "Link": "https://m.tiktok.com/h5/share/music/6837.html"
+        },
+        {
+          "Date": "2020-04-25 03:16:21",
+          "Link": "https://m.tiktok.com/h5/share/music/6624.html"
+        }
+      ]
+    },
+    "Favorite Videos": {
+      "App": 1,
+      "FavoriteVideoList": [
+        {
+          "Date": "2024-12-06 07:30:35",
+          "Link": "https://www.tiktokv.com/share/video/7373458057486978346/"
+        },
+        {
+          "Date": "2024-12-06 07:27:44",
+          "Link": "https://www.tiktokv.com/share/video/7441690395441892640/"
+        },
+        {
+          "Date": "2020-04-26 13:51:11",
+          "Link": "https://www.tiktokv.com/share/video/6788846266710314245/"
+        },
+        {
+          "Date": "2020-04-25 14:41:13",
+          "Link": "https://www.tiktokv.com/share/video/6796817786199870725/"
+        }
+      ]
+    },
+    "Follower List": {
+      "App": 1,
+      "IsFastLane": false,
+      "FansList": [
+        {
+          "Date": "2024-11-07 19:18:44",
+          "UserName": "username1"
+        },
+        {
+          "Date": "2020-04-26 13:48:43",
+          "UserName": "username2"
+        },
+        {
+          "Date": "2020-04-25 02:57:56",
+          "UserName": "username3"
+        }
+      ]
+    },
+    "Following List": {
+      "App": 1,
+      "IsFastLane": false,
+      "Following": [
+        {
+          "Date": "2024-12-02 15:30:12",
+          "UserName": "user1"
+        },
+        {
+          "Date": "2024-11-20 22:36:33",
+          "UserName": "user2"
+        },
+        {
+          "Date": "2020-04-25 18:12:14",
+          "UserName": "user3"
+        },
+        {
+          "Date": "2020-04-25 03:17:11",
+          "UserName": "user4"
+        }
+      ]
+    },
+    "Hashtag": {
+      "HashtagList": null
+    },
+    "Like List": {
+      "App": 1,
+      "ItemFavoriteList": [
+        {
+          "Date": "2024-12-08 04:24:23",
+          "Link": "https://www.tiktokv.com/share/video/7445345673777597742/"
+        },
+        {
+          "Date": "2024-12-08 04:18:30",
+          "Link": "https://www.tiktokv.com/share/video/7437715055795260702/"
+        },
+        {
+          "Date": "2023-08-15 07:31:48",
+          "Link": "https://www.tiktokv.com/share/video/7266915401051688222/"
+        },
+        {
+          "Date": "2023-08-15 00:30:37",
+          "Link": "https://www.tiktokv.com/share/video/7267335220016385326/"
+        },
+        {
+          "Date": "2023-08-15 00:30:06",
+          "Link": "https://www.tiktokv.com/share/video/7267125785159404801/"
+        }
+      ]
+    },
+    "Login History": {
+      "LoginHistoryList": [
+        {
+          "Date": "2024-06-10 23:48:02",
+          "IP": "1.2.3.4",
+          "DeviceModel": "PhoneModel",
+          "DeviceSystem": "osNAME",
+          "NetworkType": "Wi-Fi",
+        }
+      ]
+    },
+    "Purchase History": {
+      "SendGifts": {
+        "SendGifts": null
+      },
+      "BuyGifts": {
+        "BuyGifts": null
+      }
+    },
+    "Search History": {
+      "SearchList": [
+        {
+          "Date": "2024-12-08 04:25:33",
+          "SearchTerm": "term1"
+        },
+        {
+          "Date": "2024-06-16 01:36:20",
+          "SearchTerm": "term2"
+        }
+      ]
+    },
+    "Share History": {
+      "ShareHistoryList": [
+        {
+          "Date": "2024-06-11 02:58:26",
+          "SharedContent": "share_video",
+          "Link": "https://www.tiktokv.com/share/video/7441690395441892640/",
+          "Method": "chat_head"
+        },
+        {
+          "Date": "2024-12-06 19:14:13",
+          "SharedContent": "share_video",
+          "Link": "https://www.tiktokv.com/share/video/7267125785159404801/",
+          "Method": "chat_head"
+        }
+      ]
+    },
+    "Status": {
+      "Status List": [
+        {
+          "Resolution": "2169x1080",
+          "App Version": "35.4.4",
+          "IDFA": "",
+          "IDFV": "",
+          "Web ID": ""
+        },
+        {
+          "Resolution": "2071x1008",
+          "App Version": "36.5.5",
+          "IDFA": "",
+          "IDFV": "",
+          "Web ID": ""
+        }
+      ]
+    },
+    "Video Browsing History": {
+      "VideoList": [
+        {
+          "Date": "2024-12-08 04:31:51",
+          "Link": "https://www.tiktokv.com/share/video/7445730664617413919/"
+        },
+        {
+          "Date": "2024-12-08 04:29:19",
+          "Link": "https://www.tiktokv.com/share/video/7443903381015514411/"
+        },
+        {
+          "Date": "2024-06-12 04:50:42",
+          "Link": "https://www.tiktokv.com/share/video/7379263099330792750/"
+        }
+      ]
+    }
+  },
+  "Ads and data": {
+    "Ad Interests": {
+      "AdInterestCategories": ""
+    },
+    "Instant Form Ads Responses": {
+      "ResponsesList": null
+    },
+    "Off TikTok Activity": {}
+  },
+  "App Settings": {
+    "Block": {
+      "App": 1,
+      "BlockList": [
+        {
+          "Date": "2015-08-16 16:52:27",
+          "UserName": "user1"
+        }
+      ]
+    },
+    "Settings": {
+      "App": 1,
+      "SettingsMap": null
+    }
+  },
+  "Comment": {
+    "Comments": {
+      "App": 1,
+      "CommentsList": [
+        {
+          "date": "2024-11-20 22:00:58",
+          "comment": "OMG",
+          "photo": "N/A",
+          "url": ""
+        },
+        {
+          "date": "2024-04-16 03:17:55",
+          "comment": "Fun",
+          "photo": "N/A",
+          "url": ""
+        },
+        {
+          "date": "2024-03-30 01:27:48",
+          "comment": "wow",
+          "photo": "N/A",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "Direct Messages": {
+    "Chat History": {
+      "ChatHistory": {
+        "Chat History with drpandamnstr:": [
+          {
+            "Date": "2021-04-01 01:34:11",
+            "From": "username",
+            "Content": "goodbye"
+          },
+          {
+            "Date": "2021-04-01 05:42:00",
+            "From": "username",
+            "Content": "hello"
+          }
+        ]
+      }
+    }
+  },
+  "Income Plus Wallet Transactions": {
+    "Income Plus Wallet Transaction": {
+      "TransactionsList": null
+    }
+  },
+  "Poi Review": {
+    "POI Review": {
+      "ReviewsList": null
+    }
+  },
+  "Profile": {
+  },
+  "Tiktok Live": {
+    "Go Live History": {
+      "GoLiveList": null
+    },
+    "Watch Live History": {
+      "WatchLiveMap": null
+      }
+    },
+    "Watch Live Settings": {
+      "WatchLiveSettingsMap": {
+        "app": "720p",
+        "web": "N/A"
+      },
+      "MostRecentModificationTimeInApp": "133588",
+      "MostRecentModificationTimeInWeb": "0"
+    }
+  },
+  "Tiktok Shopping": {
+    "Communication History": {
+      "CommunicationHistories": null
+    },
+    "Current Payment Information": {
+      "PayCard": null
+    },
+    "Customer Support History": {
+      "CustomerSupportHistories": null
+    },
+    "Order Dispute History": {
+      "OrderDisputeHistories": null
+    },
+    "Order History": {
+      "OrderHistories": null
+    },
+    "Product Browsing History": {
+      "ProductBrowsingHistories": null
+        }
+      ]
+    },
+    "Product Review History": {
+      "ProductReviewHistories": null
+    },
+    "Return and Refund History": {
+      "ReturnAndRefundHistories": null
+    },
+    "Saved Address Information": {
+      "SavedAddress": null
+    },
+    "Shopping Cart List": {
+      "ShoppingCart": null
+    },
+    "Vouchers": {
+      "Vouchers": null
+    }
+  },
+  "Video": {
+    "RecentlyDeletedPosts": {
+      "PostList": null
+    },
+    "Videos": {
+      "VideoList": null
+    }
+  }
+}
+
