@@ -2,7 +2,7 @@
 
 Be mindful! You might have A LOT of liked/shared videos. Check the files from step 2 for an estimate on how many videos you will end up with. 10k vids ~= 40GB from my testing.
 
-1. Get your Account Data from TikTok (example file `user_data_tiktok.json`). From TikTok KB:
+1. Get your Account Data from TikTok (example file `user_data_tiktok.json`). From [TikTok KB](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data):
 
     You can request a copy of your TikTok data, which may include but is not limited to your username, watch video history, comment history, and privacy settings.
     
