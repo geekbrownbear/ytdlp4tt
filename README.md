@@ -25,8 +25,8 @@ Be mindful! You might have A LOT of
   
 
 2. Extract the links from the json file.
-   * I wanted to keep Liked, Saved, and Shared items. I couldn't get `convert.py` to work for the entire json file. So I manually copied the relevant sections to a seperate file `bookmarked_vids.json` and used the `covert_bookmarked.py` file and modified it for liked and shared
-   * The python script has hardcoded filenames, edit the script then run it to convert your json file into a list of links as a txt file
+   * Run `convert.py` from the same folder as your `user_data_tiktok.json` file
+   * You will get three files, one each for Liked, Saved, and Shared items.
   
 3. Download via yt-dlp
    * Get yt-dlp from <https://github.com/yt-dlp/yt-dlp>
