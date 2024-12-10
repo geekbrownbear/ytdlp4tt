@@ -29,6 +29,7 @@ Be mindful! You might have A LOT of
    * The python script has hardcoded filenames, edit the script then run it to convert your json file into a list of links as a txt file
   
 3. Download via yt-dlp
+   * Get yt-dlp from <https://github.com/yt-dlp/yt-dlp>
    * This command will just put the files in the same folder as yt-dlp but it can be modified as desired
    * TikTok videos end up with the entire description as the file name which is a nightmare. So instead, this will name the files using the video ID# and create a .description file (its just a text file) with the entire video descrip/name
    
