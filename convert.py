@@ -12,7 +12,7 @@ def extract_liked(json_file):
     return links
     
 def extract_favs(json_file):
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     links = []
@@ -22,7 +22,7 @@ def extract_favs(json_file):
     return links
     
 def extract_shared(json_file):
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     links = []
