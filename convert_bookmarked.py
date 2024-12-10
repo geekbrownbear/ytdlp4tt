@@ -38,7 +38,7 @@ def write_to_csv(links, csv_file):
 
 if __name__ == '__main__':
     json_file = 'bookmarked_vids.json'  # Replace with your JSON file name
-    csv_file = 'bookmarked_links.csv'  # Name of the output CSV file
+    csv_file = 'bookmarked_links.txt'  # Name of the output CSV file
 
     links = extract_links(json_file)
     write_to_csv(links, csv_file)
