@@ -1,6 +1,4 @@
-# ytdlp4tt
-
-<h1>Using yt-dlp to download all your saved, liked, and shared TikToks</h1>
+# Using yt-dlp to download all your saved, liked, and shared TikToks
 
 **With TikTok potentially disappearing I wanted to download my saved vids for future reference. But I couldn't get some existing tools to work, so I made my own!**
 
