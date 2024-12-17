@@ -7,30 +7,35 @@ def extract_liked(json_file):
 
     links = []
     for video in data['Activity']['Like List']['ItemFavoriteList']:
-        links.append(video['Link'])
+        link_key = next((key for key in video if key.lower() == 'link'), None)  # Find the key ignoring case
+        if link_key:
+            links.append(video[link_key])
 
     return links
-    
+
 def extract_favs(json_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     links = []
     for video in data['Activity']['Favorite Videos']['FavoriteVideoList']:
-        links.append(video['Link'])
+        link_key = next((key for key in video if key.lower() == 'link'), None)  # Find the key ignoring case
+        if link_key:
+            links.append(video[link_key])
 
     return links
-    
+
 def extract_shared(json_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     links = []
     for video in data['Activity']['Share History']['ShareHistoryList']:
-        links.append(video['Link'])
+        link_key = next((key for key in video if key.lower() == 'link'), None)  # Find the key ignoring case
+        if link_key:
+            links.append(video[link_key])
 
-    return links
-    
+    return links    
 
 def write_to_csv(links, csv_file):
     """
@@ -64,4 +69,3 @@ if __name__ == '__main__':
     links = extract_shared(json_file)
     write_to_csv(links, shared_file)
     print(f"Shared links extracted and saved to {shared_file}")
-
