@@ -1,6 +1,8 @@
 # ytdlp4tt
 
-*With TikTok potentially disappearing I wanted to download my saved vids for future reference. But I couldn't get some existing tools to work, so I made my own!
+<h1>Using yt-dlp to download all your saved, liked, and shared TikTok videos</h1>
+
+**With TikTok potentially disappearing I wanted to download my saved vids for future reference. But I couldn't get some existing tools to work, so I made my own!**
 
 Be mindful! You might have A LOT of liked/shared videos. Check the files from step 2 for an estimate on how many videos you will end up with. 10k vids ~= 40GB from my testing.
 
