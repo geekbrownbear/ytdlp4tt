@@ -125,17 +125,6 @@
         }
       ]
     },
-    "Login History": {
-      "LoginHistoryList": [
-        {
-          "Date": "2024-06-10 23:48:02",
-          "IP": "1.2.3.4",
-          "DeviceModel": "PhoneModel",
-          "DeviceSystem": "osNAME",
-          "NetworkType": "Wi-Fi",
-        }
-      ]
-    },
     "Purchase History": {
       "SendGifts": {
         "SendGifts": null
