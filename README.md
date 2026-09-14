@@ -1,3 +1,5 @@
+
+
 # Using yt-dlp to download all your saved, liked, and shared TikToks
 
 **With TikTok potentially disappearing I wanted to download my saved vids for future reference. But I couldn't get some existing tools to work, so I made my own!**
@@ -6,7 +8,7 @@ Be mindful! You might have A LOT of liked/shared videos. Check the files from st
 
 #
 
-1. Get your Account Data from TikTok (example file `user_data_tiktok.json`). You can download "All" data or just "Activity" which doesn't include shared videos. From [TikTok KB](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data):
+1. Get your Account Data from TikTok (example file `user_data_tiktok.json`). You can download "All" data or just "Activity" which includes shared videos. From [TikTok KB](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data):
 
     You can request a copy of your TikTok data, which may include but is not limited to your username, watch video history, comment history, and privacy settings.
     
